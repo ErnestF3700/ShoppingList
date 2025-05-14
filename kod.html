@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+        <meta charset="UTF-8">
+        <title>Lista zaku</title>
+        <link rel="stylesheet" href="style.css">
+        <link re>
+</head>
+<body>
+
+        <h1>🛒 lista zakupów</h1>
+        <input type="text" id="userInput" placeholder="Twoje imie">
+        <input type="text" id="productInput" placeholder="Nazwa produktu">
+        <input type="number" id="priceInput" placeholder="Cena(zł)" step="0.01">
+      
+        <button onclick="addProduct()">Dodaj produkt</button>
+       
+        <button onclick="showList()">Pokaż listę</button>
+
+        <ul id="shoppingList"></ul>
+        <h3 id="totalPrice">Suma:0.00z</h3>
+
+    <script src="skrypt.js"></script>    
+</body>
